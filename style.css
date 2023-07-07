@@ -117,17 +117,50 @@ h2 {
 .images {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 48px;
+    align-items: flex-start;
+    height: 400px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    max-width: 250px;
+    max-width: 200px;
 }
 
 .card {
     font-size: 18px;
     color: #414141;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 250px;
+    gap: 8px;
+}
+
+.quote.maintext {
+    font-size: 36px;
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote.author {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-basis: 64px;
 }
