@@ -1,5 +1,5 @@
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -35,6 +35,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 24px;
+    margin-bottom: 18px;
 }
 
 .hero p, .hero button {
@@ -92,4 +93,41 @@ button:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+}
+
+.info {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 32px;
+    margin-bottom: 48px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 250px;
+}
+
+.card {
+    font-size: 18px;
+    color: #414141;
 }
